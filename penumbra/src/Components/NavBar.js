@@ -8,10 +8,10 @@ export const NavBar = () => {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link" href="#">Home</a>
-        <a class="nav-link" href="#">The Studio</a>
-        <a class="nav-link" href="#">Artists</a>
-        <a class="nav-link" href="#">FAQs</a>
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#aboutus">The Studio</a>
+        <a class="nav-link" href="#artists">Artists</a>
+        <a class="nav-link" href="#contactus">Contact Us</a>
       </div>
     </div>
   </div>
