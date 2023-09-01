@@ -8,7 +8,7 @@ const aboutimage = {
 export const About = () => {
     return(
         <div id="aboutus" className="container vh-100 w-100 mx-auto">
-            <div className="row align-items-center vh-100  slide-in-bottom">
+            <div className="row align-items-center vh-100">
 
                 <div id="aboutustext" className="col-8">
                     <h1 className="fw-bold">About the Shop</h1>

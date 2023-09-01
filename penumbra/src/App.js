@@ -5,6 +5,7 @@ import {Home} from './Components/Home.js'
 import {About} from './Components/About.js'
 import {Artists} from './Components/Artists.js'
 import {Contact} from './Components/Contact.js'
+import {FAQ} from './Components/FAQ.js'
 
 
 
@@ -19,6 +20,7 @@ export function App() {
                 {page === 'studio' && <About />}
                 {page === 'artists' && <Artists />}
                 {page === 'contact' && <Contact />}
+                {page === 'FAQ' && <FAQ />}
     </div>
   );
 }
