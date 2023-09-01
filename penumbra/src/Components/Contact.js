@@ -4,7 +4,7 @@ export const Contact = () => {
         <div className="row align-items-center vh-100  slide-in-bottom">
 
             <div id="followustext" className="col-8">
-                <h1>Get in touch!</h1>
+                <h1 className="fw-bold">Get in touch!</h1>
                 <p>
                   Follow us on instagram or call us now to book an appointment!
                 </p>

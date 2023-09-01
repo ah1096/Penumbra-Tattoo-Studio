@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
 import {NavBar} from './Components/NavBar.js'
 import {Home} from './Components/Home.js'
@@ -8,14 +8,17 @@ import {Contact} from './Components/Contact.js'
 
 
 
-function App() {
+export function App() {
+
+  const [page, setPage] = useState('home')
+
   return (
     <div>
-      <NavBar/>
-      <Home/>
-      <About/>
-      <Artists/>
-      <Contact/>
+          <NavBar uhhhh={setPage}/>
+                {page === 'home' && <Home />}
+                {page === 'studio' && <About />}
+                {page === 'artists' && <Artists />}
+                {page === 'contact' && <Contact />}
     </div>
   );
 }

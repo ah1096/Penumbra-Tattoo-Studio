@@ -5,7 +5,7 @@ const logo = {
 };
 
 
-export const NavBar = () => {
+export const NavBar = (props) => {
     return(
 <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
   <div class="container-fluid">
@@ -14,13 +14,14 @@ export const NavBar = () => {
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link" href="#aboutus">The Studio</a>
-        <a class="nav-link" href="#artists">Artists</a>
-        <a class="navbar-brand" href="#home">
+        <a onClick={() => props.uhhhh('studio')} class="nav-link" href="#aboutus">The Studio</a>
+        <a onClick={() => props.uhhhh('artists')} class="nav-link" href="#artists">Artists</a>
+        <a onClick={() => props.uhhhh('home')} class="navbar-brand" href="#home">
           <img src={logo.imageUrl} style={{width:70 + 'px'}}/>
+          {/* TODO: replace this with an actual logo */}
         </a>
-        <a class="nav-link" href="#artists">FAQs</a>
-        <a class="nav-link" href="#contactus">Contact Us</a>
+        <a onClick={() => props.uhhhh('FAQs')} class="nav-link" href="#faqs">FAQs</a>
+        <a onClick={() => props.uhhhh('contact')} class="nav-link" href="#contactus">Contact Us</a>
       </div>
     </div>
   </div>

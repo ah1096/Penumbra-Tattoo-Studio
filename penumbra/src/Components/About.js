@@ -11,7 +11,7 @@ export const About = () => {
             <div className="row align-items-center vh-100  slide-in-bottom">
 
                 <div id="aboutustext" className="col-8">
-                    <h1>About the Shop</h1>
+                    <h1 className="fw-bold">About the Shop</h1>
                     <p>
                         We are a tattoo studio located in Lexington, KY -- a XX minute walk from the University of Kentucky campus.
                         Uhhhhhhhhhhhhh we're cool get tattoos idk
