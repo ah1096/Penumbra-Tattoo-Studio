@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import krisbutton1 from '../images/artistbuttons/krisbutton1.png';
 import krisbutton2 from '../images/artistbuttons/krisbutton2.png';
+import calebbutton1 from '../images/artistbuttons/calebbutton1.png';
+import calebbutton2 from '../images/artistbuttons/calebbutton2.png';
+import leobutton1 from '../images/artistbuttons/leobutton1.png';
+import leobutton2 from '../images/artistbuttons/leobutton2.png';
 
 const krisbuttons = {
   name: 'kris',
@@ -9,18 +13,12 @@ const krisbuttons = {
   imageHeight: '1rem',
 }
 
-import calebbutton1 from '../images/artistbuttons/calebbutton1.png';
-import calebbutton2 from '../images/artistbuttons/calebbutton2.png';
-
 const calebbuttons = {
   name: 'caleb',
   imageUrl1: calebbutton1,
   imageUrl2: calebbutton2,
   imageHeight: '1rem',
 }
-
-import leobutton1 from '../images/artistbuttons/leobutton1.png';
-import leobutton2 from '../images/artistbuttons/leobutton2.png';
 
 const leobuttons = {
   name: 'leo',

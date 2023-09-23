@@ -53,6 +53,20 @@ export const FAQ = () => {
         </div>
     </div>
 
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Do you all do walk-ins? 
+        </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <strong>Yes, walk-ins are welcome!</strong> Call the shop ahead of time or something, idk I just make the website.
+        </div>
+        </div>
+    </div>
+
+
 
 </div>
 
