@@ -1,7 +1,7 @@
-import him from '../images/him.jpg';
+import shopBG from '../images/shoppics/shopBGfillerimg.webp';
 const heroimage = {
-    name: 'him',
-    imageUrl: him,
+    name: 'shopBG',
+    imageUrl: shopBG,
 };
 
 
@@ -10,7 +10,7 @@ export const Home = () => {
         <div id="home" class="px-4 py-5 my-5 text-center">
         <img id="heroimage" 
               src= {heroimage.imageUrl} 
-          class="d-block mx-auto mb-4" >
+          class="d-block mx-auto mb-4 bg-image" >
         </img>
         <h1 class="display-5 fw-bold">Penumbra Tattoo Studio</h1>
         <div class="col-lg-6 mx-auto">
@@ -23,6 +23,8 @@ export const Home = () => {
             </button>
           </div>
         </div>
+
+      
       </div>
     )
 }
