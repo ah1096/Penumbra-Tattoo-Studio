@@ -1,7 +1,7 @@
-import him from '../images/him.jpg';
-const aboutimage = {
-    name: 'him',
-    imageUrl: him,
+import shopBG from '../images/shoppics/shopBGfillerimg.webp';
+const shopBGimg = {
+    name: 'shopBG',
+    imageUrl: shopBG,
 };
 
 
@@ -19,8 +19,8 @@ export const About = () => {
                     </p>
                 </div>
 
-                <div id="aboutusimage" className="col-4">
-                    <img className="w-100" src={aboutimage.imageUrl} />
+                <div id="shopBGimg" className="col-4">
+                    <img className="w-100" src={shopBGimg.imageUrl} />
                 </div>
             </div>
         </div>
