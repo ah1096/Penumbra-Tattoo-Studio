@@ -16,7 +16,7 @@ export function App() {
   return (
     <div>
           <NavBar uhhhh={setPage}/>
-                {page === 'home' && <Home />}
+                {page === 'home' && <Home/>}
                 {page === 'studio' && <About />}
                 {page === 'artists' && <Artists />}
                 {page === 'contact' && <Contact />}
