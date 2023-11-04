@@ -87,7 +87,7 @@ export const Artists = () => {
         </p>
         <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
 
-          <button type="button" class="btn">
+          <button type="button" class="btn" >
             <img id="krisImage" src={krisbuttons.imageUrl1} style={{width:70 + 'px'}} onClick={() => swapButton('krisImage')}></img>
           </button>
 

@@ -10,9 +10,9 @@ export const Home = () => {
             </p>
 
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
-                Book Now
-              </button>
+              <a id="booknowbtn" href="tel:859-368-7435" type="button" class="btn btn-primary btn-lg px-4 gap-3">
+                  Book Now
+              </a>
             </div>
           </div>
       </div>
