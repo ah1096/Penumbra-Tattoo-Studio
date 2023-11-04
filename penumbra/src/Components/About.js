@@ -13,10 +13,35 @@ export const About = () => {
                 <div id="aboutustext" className="col-6">
                     <h1 className="fw-bold">About the Shop</h1>
                     <p>
-                        We are a tattoo studio located in Lexington, KY -- a XX minute walk from the University of Kentucky campus.
-                        Uhhhhhhhhhhhhh we're cool get tattoos idk
-                        Insert more text here
+                        We are a tattoo studio located in Lexington, KY -- a 10-15 minute walk from the University of Kentucky campus.
+                        We founded the shop in September 2021 and have been in the same location ever since.
+                        Our shop prides itself in being an inclusive, welcoming space for all.
+                        Our artists specialize in American Traditional style, but every artist is trained in multiple styles and would be happy to book YOUR ideal tattoo.
                     </p>
+
+                    <p>
+                        <strong>640 West Maxwell St Suite 120. Lexington Ky, 40508</strong>
+                    </p>
+
+                    <div className="row">
+                        <p><strong>Shop Hours</strong></p>
+                        <div className="col-6">
+                            <ul>
+                                <li>Monday: 12-6 pm</li>
+                                <li>Tuesday: CLOSED</li>
+                                <li>Wednesday: CLOSED</li>
+                                <li>Thursday: 12-6 pm</li>
+                            </ul>
+                        </div>
+
+                        <div className="col-6">
+                            <ul>
+                                <li>Friday: 12-6 pm</li>
+                                <li>Saturday: 12-8 pm</li>
+                                <li>Sunday: 12-8 pm</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
 
                 <div id="carousel" className="col-6">
