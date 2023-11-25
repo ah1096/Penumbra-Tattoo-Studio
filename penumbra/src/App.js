@@ -8,8 +8,6 @@ import {Contact} from './Components/Contact.js'
 import {FAQ} from './Components/FAQ.js'
 import {KrisPage} from './Components/KrisPage.js'
 
-
-
 export function App() {
 
   const [page, setPage] = useState('home')
