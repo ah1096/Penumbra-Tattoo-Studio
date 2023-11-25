@@ -22,6 +22,7 @@ export const NavBar = (props) => {
         </a>
         <a onClick={() => props.uhhhh('FAQ')} class="nav-link" href="#FAQ">FAQs</a>
         <a onClick={() => props.uhhhh('contact')} class="nav-link" href="#contactus">Contact Us</a>
+        <a onClick={() => props.uhhhh('krispage')} class="nav-link" href="#krispage">Kris Artist Page</a>
       </div>
     </div>
   </div>

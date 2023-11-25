@@ -35,3 +35,8 @@
 #booknowbtn:hover {
   color: white;
 }
+
+#artistprofilepic {
+  height: 10rem;
+  width: 10rem;
+}

@@ -6,6 +6,7 @@ import {About} from './Components/About.js'
 import {Artists} from './Components/Artists.js'
 import {Contact} from './Components/Contact.js'
 import {FAQ} from './Components/FAQ.js'
+import {KrisPage} from './Components/KrisPage.js'
 
 
 
@@ -21,6 +22,7 @@ export function App() {
                 {page === 'artists' && <Artists />}
                 {page === 'contact' && <Contact />}
                 {page === 'FAQ' && <FAQ />}
+                {page === 'krispage' && <KrisPage />}
     </div>
   );
 }

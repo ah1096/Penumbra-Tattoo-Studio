@@ -4,7 +4,7 @@ const profilepic = {
     imageUrl: him,
 };
 
-export const ArtistPageTemplate = () => {
+export const KrisPage = () => {
     return(
         <div id="artistPage" className="container vh-100 w-100 mx-auto">
             <div className="row align-items-center vh-100">
