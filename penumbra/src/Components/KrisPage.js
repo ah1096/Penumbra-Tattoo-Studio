@@ -1,4 +1,4 @@
-import InstagramEmbed from 'react-instagram-embed';
+import InstaWidget from './InstaWidget';
 import krispic from '../images/artistprofiles/KrisProfilePic.jpeg';
 const krisprofilepic = {
     name: 'krispic',
@@ -45,8 +45,8 @@ export const KrisPage = () => {
                     </div>
                 </div>
 
-                <div class="col-6">
-                   
+                <div id="instafeedwidget" class="col-6">
+                   <InstaWidget />
                 </div>
 
             </div>
