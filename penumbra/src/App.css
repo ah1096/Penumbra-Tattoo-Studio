@@ -36,11 +36,15 @@
   color: white;
 }
 
-#artistprofilepic {
-  height: 10rem;
-  width: 10rem;
-}
+/* #artistprofilepic {
+  height: 8rem;
+  width: 8rem;
+} */
 
-#instafeedwidget{
+/* #instafeedwidget{
   background-color: red;
-}
+} */
+
+/* #artistpageheading {
+  display: inline;
+} */
